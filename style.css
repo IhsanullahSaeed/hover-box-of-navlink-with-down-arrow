@@ -1,0 +1,29 @@
+
+body {
+ padding: 2em;
+}
+
+.tooltip {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tooltip:hover {
+ position: relative;
+ background-color: silver;
+ border-radius: 0.25em;
+}
+
+.triangle {
+ display: block;
+ height: 0px;
+ width: 0px;
+ border: 10px solid transparent;
+ border-top-color: silver;
+ position: absolute;
+ bottom: -20px;
+ left: calc(50% - 10px);
+}
